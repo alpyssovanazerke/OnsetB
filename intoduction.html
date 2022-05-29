@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>OnsetB</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/project.js" defer></script>
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="intoduction.html" class="active">Home</a>
+        <a href="investorpage.html">Projects</a>
+        <a href="#contact">Contacts</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    </div>
+    
+    <div id="id01" class="modal">
+    
+        <form class="modal-content animate" action="investorpage.html">
+            
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+    
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+    
+                <button type="submit" class="login">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+    
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                    class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+    
+    <div class="bgimg-1">
+        <div class="caption">
+            <span class="border"><b>OnsetB</b></span>
+        </div>
+    </div>
+    <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+        <h3 style="text-align:center;">Инвестиция с пользой</h3>
+        <p>Кем бы вы не были инвестор или руководитель малого бизнеса, а может у вас есть идея, но нет денег?
+            То тогда вы сделали правильный выбор! OnsetB - площадка, как и для инвесторов, которые ищут новые идеи, 
+            так и для стартапер и малых бизнесов, ищущие финансовую поддержку
+        </p>
+    </div>
+    <div class="bgimg-2">
+        <div class="caption">
+            <span class="border" style="background-color:#111;font-size:25px;color: #f7f7f7;">Готовые бизнес-планы </span>
+        </div>
+    </div>
+    <div style="position:relative;">
+        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p><b>Инвесторы могут получить не только идеи, но и бизнес-план того, как будет воспроизводиться работа.</b></p>
+        </div>
+    </div>
+    <div class="bgimg-3">
+        <div class="caption">
+            <span class="border" style="background-color:#111;font-size:25px;color: #f7f7f7" > Прибыль за просмотр вашего бизнес-плана </span>
+        </div>
+    </div>
+    <div style="position:relative;">
+        <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+            <p><b>За просмотор своего бизнес-плана вы можете предоставить нужную сумму инвестору и получить уже прибыль в виде 80% от указанной суммы</b></p>
+        </div>
+    </div>
+</body>
+</html>
